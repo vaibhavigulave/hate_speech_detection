@@ -1,13 +1,5 @@
-requirements = '''
 streamlit
 pandas
 numpy
 scikit-learn
 nltk
-pickle-mixin
-'''
-
-with open("requirements.txt", "w") as file:
-    file.write(requirements)
-
-print("requirements.txt created successfully")
